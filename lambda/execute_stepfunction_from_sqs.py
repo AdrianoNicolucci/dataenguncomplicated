@@ -1,4 +1,5 @@
-"""This lambda function reads a message from an SQS Queue in AWS, Passes it to a step machine, and then deletes the
+"""Copyright 2023 Adriano Nicolucci. All rights reserved. https://github.com/AdrianoNicolucci/dataenguncomplicated/blob/main/lambda/execute_stepfunction_from_sqs.py
+This lambda function reads a message from an SQS Queue in AWS, Passes it to a step machine, and then deletes the
 Message when we have succesfully started our state machine"""
 
 
