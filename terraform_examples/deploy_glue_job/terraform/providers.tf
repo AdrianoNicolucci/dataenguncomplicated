@@ -6,12 +6,8 @@ terraform {
       version = ">= 5.30.0"  # Replace with your desired version constraint
     }
     ## ..
-    random = {
-      source  = "hashicorp/random"
-      version = "3.5.1"
     }
   }
-}
 
   provider "aws" {
     region = "ca-central-1"  # Set your desired AWS region
